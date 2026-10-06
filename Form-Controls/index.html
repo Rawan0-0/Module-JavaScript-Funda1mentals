@@ -36,25 +36,26 @@
 </p>
 
 <!-- a list of suggestions using the list attribute and the datalist element -->
- <!-- I need to fix the labels to increase accessbility to 100%-->
+ 
  <label> 
 Select your T-shirt size: 
-<input list="SizeList" name="T-shirt Size" placeholder=" Choose your size" required><br> 
-</label>
-<datalist id="SizeList">
-
-<option value="XS">
-  <option value="S">
-    <option value="M">
-      <option value="L">
-        <option value="XL">
-          <option value="XXL">
-        
-</datalist>
-
-      
-
+   <p>please select a size:</p>
 <p>
+<input type="radio" name="T-shirt_Size" id="XS" value="XS" placeholder="XS" required>
+<label for="XS"label>xs</label><br>
+<input type="radio" name="T-shirt_Size" id="S" value="S" placeholder="S" required>
+<label for="S"label>s</label><br>
+<input type="radio" name="T-shirt_Size" id="M" value="M" placeholder="M" required>
+<label for="M"label>M</label><br>
+  <input type="radio" name="T-shirt_Size" id="L" value="L" placeholder="L" required>
+<label for="L"label>L</label><br>
+  <input type="radio" name="T-shirt_Size" id="XL" value="XL" placeholder="XL" required>
+<label for="XL"label>XL</label><br>
+  <input type="radio" name="T-shirt_Size" id="XXL" value="XXL" placeholder="XXL" required>
+<label for="XXL"label>xXXL/label><br>
+</p>
+</label>
+
        <style>
 input:invalid{background: rgb(253, 251, 253);}
 input:valid{background: rgb(253, 251, 253);}
