@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>My form exercise</title>
-    <link rel="stylesheet" href="style.css"/>
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
     <header>
@@ -16,7 +16,7 @@
       <form>
   
         Enter your name:
-      <input type="text" placeholder="Enter your name  " name="aName" size="16" minlength="2" maxlength="16" PATTERN = ".*\S.*\S.*" required>
+      <input type="text" placeholder="Enter your name  " name="aName" size="16" minlength="2" maxlength="16" pattern=".*\S.*\S.*" required>
  
 <!-- the size attribute control how wide the text box, "how many characters it can control-->
 <!-- the minlength attribute control the minimum number of characters required-->
@@ -27,47 +27,46 @@
 <!-- choosing the radio buttons for color selection-->
 <p>please select a color:</p>
 <p>
-<input type="radio" name="color" id="red" value="Red" placeholder="Red" required>
-<label for="red"label>Red</label><br>
-<input type="radio" name="color" id="brown" value="Brown" placeholder="Brown" required>
+<input type="radio" name="color" id="red" value="Red" required>
+<label for="red">Red</label>
+<input type="radio" name="color" id="brown" value="Brown"  required>
 <label for="brown">Brown</label><br>
-<input type="radio" name="color" id="black" value="Black" placeholder="Black" required>
+<input type="radio" name="color" id="black" value="Black"  required>
 <label for="black">Black</label><br>
 </p>
 
 <!-- a list of suggestions using the list attribute and the datalist element -->
  
- <label> 
-Select your T-shirt size: 
-   <p>please select a size:</p>
-<p>
-<input type="radio" name="T-shirt_Size" id="XS" value="XS" placeholder="XS" required>
-<label for="XS"label>xs</label><br>
-<input type="radio" name="T-shirt_Size" id="S" value="S" placeholder="S" required>
-<label for="S"label>s</label><br>
-<input type="radio" name="T-shirt_Size" id="M" value="M" placeholder="M" required>
-<label for="M"label>M</label><br>
-  <input type="radio" name="T-shirt_Size" id="L" value="L" placeholder="L" required>
-<label for="L"label>L</label><br>
-  <input type="radio" name="T-shirt_Size" id="XL" value="XL" placeholder="XL" required>
-<label for="XL"label>XL</label><br>
-  <input type="radio" name="T-shirt_Size" id="XXL" value="XXL" placeholder="XXL" required>
-<label for="XXL"label>xXXL/label><br>
-</p>
-</label>
+<p>Select your T-shirt size:</p>
+ 
+<input type="radio" name="T-shirt_Size" id="XS" value="XS" required>
+<label for="XS">XS</label><br>
+ 
+<input type="radio" name="T-shirt_Size" id="S" value="S">
+<label for="S">S</label><br>
+ 
+<input type="radio" name="T-shirt_Size" id="M" value="M">
+<label for="M">M</label><br>
+ 
+<input type="radio" name="T-shirt_Size" id="L" value="L">
+<label for="L">L</label><br>
+ 
+<input type="radio" name="T-shirt_Size" id="XL" value="XL">
+<label for="XL">XL</label><br>
+ 
+<input type="radio" name="T-shirt_Size" id="XXL" value="XXL">
+<label for="XXL">XXL</label><br>
 
-       <style>
-input:invalid{background: rgb(253, 251, 253);}
-input:valid{background: rgb(253, 251, 253);}
- </style> 
-        <label>
+
+    
+   <label>     
  Enter your email:
 <input type="email" placeholder="Enter your email" required>
-</p>
+
 <!--The input type="email" is used so the browser can validatae the email address format-->
 <!--the style tag is used to style the input box. CSS pseudo-classes :valid or :invalid to check if the email is valid and notify the user-->
 </label>
- <label> <input type="submit"> <input type="resit">
+ <label> <input type="submit"> 
   </label>
 </form>
     </main>
