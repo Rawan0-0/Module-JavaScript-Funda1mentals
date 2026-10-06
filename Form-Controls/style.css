@@ -1,16 +1,14 @@
-body { color: #141414; 
-  
-    background-color: #6aa57e; 
+body {
+  color: #141414;
 
-     font-family: Georgia; 
-     }
-    
+  background-color: #6aa57e;
 
-h1{
+  font-family: Georgia;
+}
 
-font-family: sans-serif;
-color:  rgba(22, 14, 14, 0.74); 
-background-color: #f0ece8;  
-text-align: center;
-
+h1 {
+  font-family: sans-serif;
+  color: rgba(22, 14, 14, 0.74);
+  background-color: #f0ece8;
+  text-align: center;
 }
