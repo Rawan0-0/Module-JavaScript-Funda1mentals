@@ -14,3 +14,13 @@
 // You will need to come up with an appropriate name for the function
 // Use the MDN string documentation to help you find a solution
 // This might help https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase
+
+function capitalise_all_letters(str) {
+  //I used toUpperCase string method to capitalise all the string
+  //I used replace to replace first space " " in the string and replace it with "_"
+  return str.toUpperCase().replace(" ", "_");
+}
+
+console.log(`The result is ${capitalise_all_letters("hello world")}`);
+
+// so far its easy -_-

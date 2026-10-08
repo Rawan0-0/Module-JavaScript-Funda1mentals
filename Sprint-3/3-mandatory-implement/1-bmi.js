@@ -14,6 +14,13 @@
 // Then when we call this function with the weight and height
 // It should return a string of their Body Mass Index to 1 decimal place
 
+//function calculateBMI(weight, height) {
+// return the BMI of someone based off their weight and height
+//}
+
 function calculateBMI(weight, height) {
-  // return the BMI of someone based off their weight and height
+  //I had to search about how to include Math.floor and decimal digits to do line 30 correctly
+  return Math.floor((weight / (height * height)) * 10) / 10;
 }
+
+console.log(`Your Bmi is ${calculateBMI(70, 1.73)}`);
