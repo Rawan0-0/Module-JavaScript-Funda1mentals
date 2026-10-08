@@ -1,6 +1,11 @@
-const  TwelveHourClockTime = "8:53pm";
-const TwentyFourHourClockTime = "20:53";
-// an identifier or keyword can't follow a numeric literal. We fix this by writing the numbers in words format
+const twelveHourClockTime = "8:53pm";
+const twintyFourhourClockTime = "20:53";
 
-//const 12HourClockTime = "8:53pm";
-//const 24hourClockTime = "20:53";
+//we see the error message SyntaxError: Invalid or unexpected token,
+
+//because variable conventions don't allow numbers to be the start of variable names
+
+//to solve this issue, we change the numbers to words format
+
+//done
+
