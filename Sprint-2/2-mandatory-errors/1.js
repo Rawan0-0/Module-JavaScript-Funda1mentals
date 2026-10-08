@@ -2,8 +2,8 @@
 
 let age = 33;
 age = age + 1;
+//a shorthand assignment operator
+//yes, +=
+//an error message shows up: TypeError: Assignment to constant variable.
 
-//we change the variable declaration and reassign its value
-// variable declaration keywords 
-// const can't be used to reassign a value 
-// let can be used to reassign a value 
+//to solve this, we replace const with let to make the variable value changeable, then we run the program
