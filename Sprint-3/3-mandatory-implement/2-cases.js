@@ -18,9 +18,14 @@
 function capitalise_all_letters(str) {
   //I used toUpperCase string method to capitalise all the string
   //I used replace to replace first space " " in the string and replace it with "_"
-  return str.toUpperCase().replace(" ", "_");
+  return str.toUpperCase().replaceAll(" ", "_");
 }
 
-console.log(`The result is ${capitalise_all_letters("hello world")}`);
+console.log(
+  `The result is ${capitalise_all_letters("hello world we are here")}`,
+);
 
 // so far its easy -_-
+//I used replaceAll to replace every space with _
+//I used Copilot like a teacher to help me when I'm stuck
+//one day I will create AI models -_-1
