@@ -19,8 +19,12 @@
 //}
 
 function calculateBMI(weight, height) {
-  //I had to search about how to include Math.floor and decimal digits to do line 30 correctly
-  return Math.floor((weight / (height * height)) * 10) / 10;
+  return (weight / (height * height)).toFixed(1);
 }
 
 console.log(`Your Bmi is ${calculateBMI(70, 1.73)}`);
+
+//why I used toFixed?
+//Its a javaScript method used to format a number's digit based on my request
+//it rounds the number and fill the digit with zeros if needed
+//also the parenthises mean, it will return the result as a text or string
