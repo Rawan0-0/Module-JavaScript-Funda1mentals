@@ -11,11 +11,11 @@ console.log(num);
 //First, const minimum and const maximum are variables
 // = is the assignment operator
 // what comes after = is what the variable will store
-// Math.floor is a method, and here we are telling it that its argument is to use the random method
-// and multiply the result before rounding with the maximum and minimum variables we created
 // * is a multiplication operator
 //To understand what is going on, we need to understand what the floor and random methods do
-//Math.floor (rounds down) and then pass it to Math.floor
-//We are asking the program to round whatever result we have to the nearest whole number
+// Math.floor rounds down what ever it has inside its parenthisis,
+//and because math.random is inside the parenthises the calculation is performed first before we do any rounding.
+//Also, once the rounding is done + minimum is added.so math.floor round down for example if the calculation give 4.9 it rounds to 4,
+//than + minimum take that result and adds to it 1 making it 5
 
 //done
